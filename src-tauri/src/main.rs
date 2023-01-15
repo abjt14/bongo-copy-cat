@@ -6,17 +6,18 @@
 use tauri::Window;
 use rdev::{listen, Event};
 
-// Learn more about Tauri commands at https://tauri.app/v1/guides/features/command
 #[tauri::command]
 fn listener(window: Window) {
 
     let emit_event = move || {
-        window.eval("document.querySelector('button').click()");
+        if let Err(error) = window.eval("document.querySelector('button').click()") {
+            println!("Error: {:?}", error)
+        };
     };
 
     let callback = move |event: Event| {
         match event.name {
-            Some(string) => emit_event(),
+            Some(_string) => emit_event(),
             None => (),
         }
     };
