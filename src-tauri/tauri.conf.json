@@ -7,7 +7,7 @@
     "withGlobalTauri": true
   },
   "package": {
-    "productName": "bongo-copy-cat",
+    "productName": "Bongo Copy Cat",
     "version": "0.0.0"
   },
   "tauri": {
