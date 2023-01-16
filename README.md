@@ -7,11 +7,15 @@
 ## Introduction
 
 **Bongo Copy Cat** wants to be involved in everything you do but instead just imitates you hitting your keyboard all day. After all it's just a cat.
+
 Supported platforms: **MacOS** and **Windows**.
 
 This is a practice project for me to learn [**Rust**](https://www.rust-lang.org/) and [**Tauri**](https://tauri.app/).
 
-## Other Libraries/Dependencies
+## About the meme
+Bongo Cat is a meme created by [DitzyFlama](https://twitter.com/DitzyFlama) ([tweet](https://twitter.com/DitzyFlama/status/993487015499853824)) using [StrayRogue](https://twitter.com/StrayRogue)'s [drawing of a cat](https://twitter.com/StrayRogue/status/992994454058381312).
+
+## Libraries that made this possible
 * [**Rdev**](https://github.com/Narsil/rdev) for listening to global input events on Mac OS.
 * [**InputBot**](https://github.com/obv-mikhail/InputBot) for listening to global input events on Windows.
 
