@@ -1,6 +1,6 @@
 # Bongo Copy Cat
 
-![Bongo Copy Cat At Work](https://github.com/abjt14/bongo-copy-cat/main.gif)
+<img src="https://raw.githubusercontent.com/abjt14/bongo-copy-cat/main/main.gif" width=25% height=25%>
 
 [![Build](https://github.com/abjt14/bongo-copy-cat/actions/workflows/main.yml/badge.svg)](https://github.com/abjt14/bongo-copy-cat/actions/workflows/main.yml) [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
@@ -24,6 +24,6 @@ You can always build the project youself. This will prevent the system from thro
 
 * Download the source code from the [releases](https://github.com/abjt14/bongo-copy-cat/releases) page as a zip file or clone the project using `git clone`.
 * Install the [**Rust**](https://www.rust-lang.org/tools/install) toolchain.
-* You can run, develop, and build the **Tauri** project using **npm**, **yarn**, **pnpm**, or **cargo**.
+* You can build the **Tauri** project using **npm**, **yarn**, **pnpm**, or **cargo**.
 
 Don't just fork the project, give the cat a star ⭐️
