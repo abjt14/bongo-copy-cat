@@ -5,13 +5,13 @@
 
 use tauri::Window;
 
-#[cfg(any(target_os = "macos", target_os = "linux"))]
+#[cfg(target_os = "macos")]
 use rdev::{listen, Event};
 
 #[cfg(target_os = "windows")]
 use inputbot::KeybdKey;
 
-#[cfg(any(target_os = "macos", target_os = "linux"))]
+#[cfg(target_os = "macos")]
 #[tauri::command]
 fn listener(window: Window) {
     let emit_event = move || {
@@ -27,7 +27,6 @@ fn listener(window: Window) {
         }
     };
 
-    // This will block.
     if let Err(error) = listen(callback) {
         println!("Error: {:?}", error)
     }
