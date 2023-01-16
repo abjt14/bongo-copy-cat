@@ -7,6 +7,10 @@ html, body {
   overflow: hidden;
 }
 
+body {
+  margin: 0;
+}
+
 .container {
   height: 100%;
   display: flex;
