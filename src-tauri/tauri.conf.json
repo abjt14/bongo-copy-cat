@@ -8,7 +8,7 @@
   },
   "package": {
     "productName": "Bongo Copy Cat",
-    "version": "0.1.0"
+    "version": "0.5.0"
   },
   "tauri": {
     "allowlist": {
@@ -34,7 +34,7 @@
         "icons/icon.ico"
       ],
       "identifier": "dev.abjt.bongocopycat",
-      "longDescription": "",
+      "longDescription": "Bongo Copy Cat wants to be involved in your work but instead just imitates you hitting your keyboard. After all it's just a cat.",
       "macOS": {
         "entitlements": null,
         "exceptionDomain": "",
@@ -43,7 +43,7 @@
         "signingIdentity": null
       },
       "resources": [],
-      "shortDescription": "",
+      "shortDescription": "Bongo Copy Cat wants to be involved in your work but instead just imitates you hitting your keyboard.",
       "targets": "all",
       "windows": {
         "certificateThumbprint": null,
@@ -60,7 +60,7 @@
     "windows": [
       {
         "fullscreen": false,
-        "height": 600,
+        "height": 800,
         "resizable": true,
         "title": "Bongo Copy Cat",
         "width": 800
