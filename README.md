@@ -10,7 +10,7 @@
 
 A desktop app built using the [**Tauri**](https://tauri.app/) framework. Supported platforms: `MacOS` and `Windows`.
 
-This is a practice project for me to learn **Rust** and **Tauri**. Read more about the idea on [dev.to](https://dev.to/abjt14/bongo-copy-cat-a-tauri-cat-that-wants-to-be-involved-in-everything-you-do-5bge).
+This is a practice project for me to learn **Rust** and **Tauri**. Read more about the idea on my [blog](https://abjt.dev/writing/bongo-copy-cat).
 
 Here's the app in action.
 <img src="https://raw.githubusercontent.com/abjt14/bongo-copy-cat/main/main-2.gif">
